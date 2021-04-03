@@ -13,7 +13,7 @@ const Burger = (props) => {
         return arr.concat(el);
     }, []); // Concatenating all the array elements in one single array
 
-    if(new_ingredients.length == 0) {
+    if(new_ingredients.length === 0) {
         new_ingredients = <p>Please add some ingredients!</p>;
     }
 
